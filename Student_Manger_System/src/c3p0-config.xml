@@ -1,0 +1,23 @@
+<c3p0-config>
+	<named-config name="LF_OS_Student_Config">
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/lf_os</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">student</property>
+		<property name="password">student</property>
+		<property name="initialPoolSize">10</property>
+		<property name="maxPoolSize">20</property>
+		<property name="maxIdleTime">1000</property>
+	</named-config>
+
+	<named-config name="LF_OS_Teacher_Config">
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/lf_os</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">teacher</property>
+		<property name="password">teacher</property>
+		<property name="initialPoolSize">10</property>
+		<property name="maxPoolSize">20</property>
+		<property name="maxIdleTime">1000</property>
+	</named-config>
+
+
+</c3p0-config>
